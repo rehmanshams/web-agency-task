@@ -9,7 +9,7 @@ export const Header = () => {
           <div className=" flex  justify-between">
             <img
               className="mt-[96px] ml-[110px]"
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header.svg"
+              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header%20%286%29.svg"
             />
             <nav>
               <ul className="flex font-syneregularone gap-10 ml-64 cursor-pointer mt-[99px]">

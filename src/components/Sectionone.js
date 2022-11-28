@@ -14,7 +14,7 @@ export const Sectionone = () => {
         <div className="absolute flex">
           <img
             className="ml-[110px] w-[400px] mt-[110px]"
-            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Vector%20%2810%29.svg"
+            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Vector%20%2813%29.svg"
           />
           <img
             className="ml-[400px] w-[400px] mt-[-280px]"
