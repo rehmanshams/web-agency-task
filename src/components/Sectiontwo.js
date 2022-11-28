@@ -2,7 +2,7 @@ import React from "react";
 
 export const Sectiontwo = () => {
   return (
-    <div className="w-full">
+    <div className="w-full mt-[2000px] relative">
       <div className="w-full max-w-[1440px] h-[1700px] container mx-auto ">
         <div className="w-full ">
           <div className="flex justify-center">
@@ -152,7 +152,7 @@ export const Sectiontwo = () => {
             <div>
               <div className="absolute">
                 <img
-                  className="mt-[300px]"
+                  className="w-full max-w-[1440px] mt-[300px]"
                   src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%201862.svg"
                 />
               </div>
@@ -183,8 +183,8 @@ export const Sectiontwo = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-[1000px]">
-              <div className="flex gap-28">
+            <div className="mt-[1100px] w-full max-w-[1920px]">
+              <div className="flex gap-28 w-full max-w-[1920px]">
                 <div className="ml-[150px]">
                   <nav>
                     <ul>
@@ -313,7 +313,7 @@ export const Sectiontwo = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full bg-[#1F222C] h-[145px] mt-14">
+              <div className="w-full max-w-[1920px] bg-[#1F222C] h-[145px] mt-14">
                 <p className="font-metropolisone text-[20px] text-center pt-14 text-white">
                 Copyright 2021 di•puentes - All Rights Reserved.
                 </p>

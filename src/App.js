@@ -7,10 +7,9 @@ import Sectionthree  from "./components/Sectionthree";
 function App() {
   return (
     <>
-      {/* <Header />
-      <Sectionone /> */}
-      <Sectiontwo/>
-      {/* <Sectionthree/> */}
+      <Header />
+      <Sectionone />
+    
     </>
   );
 }

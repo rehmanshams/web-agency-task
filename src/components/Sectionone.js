@@ -1,7 +1,9 @@
 import React from "react";
-
+import Sectiontwo from "./Sectiontwo";
 export const Sectionone = () => {
   return (
+    <>
+    <div>
     <div className="w-full max-w-[1440px] mx-auto container relative">
       <div className="h-full bg-white">
         <p className="pt-[200px] ml-[100px] font-syneboldone text-[65px] ">
@@ -120,8 +122,13 @@ export const Sectionone = () => {
             </div>
           </div>
         </div>
+        
       </div>
+   
     </div>
+      </div>
+      <Sectiontwo />
+       </>
   );
 };
 export default Sectionone;
