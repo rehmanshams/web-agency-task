@@ -11,7 +11,9 @@ module.exports = {
       fontFamily: {
         syneboldone: ["syne__"],
         syneregularone: ["syne___"],
-        metropolisone: ["metropolisone"]
+        metropolisone: ["metropolisone"],
+        montserratone: ["Montserrat"],
+        metropolistwo: ["metropolistwo"],
       },
     },
   },

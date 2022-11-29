@@ -2,34 +2,35 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="w-full relative h-[1412px]">
+    <div className="w-full  relative h-[1412px]">
       <div className=" absolute header-image"></div>
-      <div className="w-full max-w-[1440px] container h-full mx-auto">
-        <div className=" w-full absolute max-w-[1440px] ">
+      <div className="w-full max-w-[1920px] container h-[1412px] mx-auto">
+        <div className=" w-full absolute h-[1412px] max-w-[1920px] ">
           <div className=" flex  justify-between">
-            <img
-              className="mt-[96px] ml-[110px]"
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header%20%286%29.svg"
-            />
-            <nav>
-              <ul className="flex font-syneregularone gap-10 ml-64 cursor-pointer mt-[99px]">
-                <li>Home</li>
-                <li>Services</li>
-                <li>About</li>
-                <li>Blog</li>
-              </ul>
-            </nav>
-            <button className="font-syneboldone cursor-pointer w-[209px] h-[68px] bg-[#5458E1] mr-[111px] mt-[78px] ">
-              Let’s Talk
-            </button>
+            <p className="font-montserratone text-[37.2193px] leading-[105%] mt-[93px] ml-[110px]">
+              DI-PUENTES
+            </p>
+            <div className="flex mr-[111px] ">
+              <nav className="mt-[89px] mr-[60px]">
+              <ul className="flex font-syneregularone text-[22px] opacity-[0.8] leading-[210%] gap-[60.70px] w-[423px] h-[46px]   cursor-pointer ">
+                  <li className="font-syneregularone">Home</li>
+                  <li className="font-syneregularone">Services</li>
+                  <li className="font-syneregularone">About</li>
+                  <li className="font-syneregularone">Blog</li>
+                </ul>
+              </nav>
+              <button className="font-syneboldone cursor-pointer w-[209px] h-[68px] leading-[210%] bg-[#5458E1] text-white text-[22px] mt-[78px] ">
+                Let’s Talk
+              </button>
+            </div>
           </div>
-          <div className="flex justify-center">
+          <div className="w-full flex justify-center">
             <p className="font-syneboldone header-paragraph text-center">
               Unique Websites For Consultants
               <br /> & Coaches Who Are On Fire For
               <br />
               Their Business And Are Through
-              <br /> With Self-made
+              <br /> With Self-Made
             </p>
           </div>
           <div className="flex justify-center mt-[108px]">
@@ -58,8 +59,9 @@ export const Header = () => {
               />
             </svg>
           </div>
-          <div className="flex gap-16 justify-center mt-60">
+          <div className="flex gap-[152px] item-center w-[1608.8px] h-[65.43px] ml-[156px] mr-[155.2px] mt-[249px]">
             <svg
+            className="mt-[4.36px]"
               width="243"
               height="56"
               viewBox="0 0 243 56"
@@ -76,6 +78,7 @@ export const Header = () => {
               />
             </svg>
             <svg
+            className="mt-[11.63px]"
               width="177"
               height="41"
               viewBox="0 0 177 41"
@@ -88,6 +91,7 @@ export const Header = () => {
               />
             </svg>
             <svg
+            className="mt-[2.91px]"
               width="219"
               height="60"
               viewBox="0 0 219 60"
@@ -138,6 +142,7 @@ export const Header = () => {
               />
             </svg>
             <svg
+            className="mt-[7.27px]"
               width="224"
               height="51"
               viewBox="0 0 224 51"

@@ -2,15 +2,19 @@ import React from "react";
 
 export const Sectiontwo = () => {
   return (
-    <div className="w-full mt-[2000px] relative">
-      <div className="w-full max-w-[1440px] h-[1700px] container mx-auto ">
+    <div className="w-full mt-[3800px] relative">
+      <div className="w-full max-w-[1920px] h-[1700px] container mx-auto ">
         <div className="w-full ">
           <div className="flex justify-center">
-            <div>
-              <p className="text-black font-syneboldone text-[45px] pt-56">
+            <div className=" w-[1360px] h-[95px]">
+              <p className="text-black font-syneboldone leading-[161%] text-[65px] pt-56">
                 Lorem Ipsum Dolor Sit Amet Consect
               </p>
-              <p className="font-metropolisone text-center pt-4">
+            </div>
+          </div>
+          <div className=" flex justify-center">
+            <div className=" w-[1205px] h-[100px]  mt-[311px]">
+              <p className="font-metropolisone text-2xl text-center leading-[210%] text-black opacity-[0.8]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et <br />
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -20,112 +24,129 @@ export const Sectiontwo = () => {
           </div>
           <div className="flex justify-center">
             <div>
-              <div className="w-[1100px] border-black border-[2px] mt-[142px] " />
-              <div className="w-[1000px] mt-10 flex">
-                <img
-                  className="ml-12"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header%20%282%29.svg"
-                />
-                <div className="pl-32">
-                  <p className="text-[35px] font-syneboldone text-[#5458E1]">
-                    Create
+              <div className="border-[3px] border-black w-[1600px] mt-[142px]" />
+              <div className="">
+                <div className="flex">
+                  <p className="ml-[100px] mt-[42px] font-metropolistwo text-[100px]">
+                    01
                   </p>
-                  <p className="text-black font-metropolisone">
-                    Personal Branding
-                  </p>
+                  <div className="mt-16 ml-[85px] w-[220px]">
+                    <p className=" font-syneboldone  text-[35px] text-[#5458E1]">
+                      Create
+                    </p>
+                    <p className="text-[24px] text-black leading-[210%] font-metropolisone">
+                      Personal Branding
+                    </p>
+                  </div>
+                  <div className="ml-[874px] mt-[61px]">
+                    <div className="absolute">
+                      <img
+                        className=""
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Vector%20%2812%29.svg"
+                      />
+                    </div>
+                    <div className="mt-8 ml-8 absolute">
+                      <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow%205.svg" />
+                    </div>
+                  </div>
                 </div>
-                <div className="ml-[500px]">
-                  <div className="absolute">
+                <div className="border-[3px] border-black w-[1600px] mt-[56px]" />
+              </div>
+              <div className="">
+                <div className="flex">
+                  <p className="ml-[100px]  mt-[42px] font-metropolistwo text-[100px]">
                     <img
-                      className=""
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Vector%20%2812%29.svg"
+                      className="w-[131px] h-[161px]"
+                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header%20%283%29.svg"
                     />
+                  </p>
+                  <div className="mt-16 ml-[66px]  w-[315px]">
+                    <p className=" font-syneboldone  text-[35px] text-black">
+                      Build
+                    </p>
+                    <p className="text-[24px] text-black leading-[210%] font-metropolisone">
+                      Copywriting & Web Design{" "}
+                    </p>
                   </div>
-                  <div className="mt-8 ml-8 absolute">
-                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow%205.svg" />
+                  <div className="ml-[796px] mt-[77.76px]">
+                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_6-removebg-preview.png" />
                   </div>
                 </div>
+                <div className="border-[3px] border-black w-[1600px] mt-[56px]" />
               </div>
-              <div className="w-[1100px] border-black border-[2px] mt-[85px] " />
-              <div className="w-[1050px] mt-12 flex">
-                <img
-                  className="ml-12"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header%20%283%29.svg"
-                />
-                <div className="pl-[105px]">
-                  <p className="text-[35px] font-syneboldone text-black">
-                    Build
+              <div className="">
+                <div className="flex">
+                  <p className="ml-[100px]  mt-[42px] font-metropolistwo text-[100px]">
+                    <img
+                      className="w-[131px] h-[161px]"
+                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header%20%284%29.svg"
+                    />
                   </p>
-                  <p className="text-black font-metropolisone">
-                    Copywriting & Web Design
-                  </p>
+                  <div className="mt-16 ml-[67px] w-[340px]">
+                    <p className=" font-syneboldone  text-[35px] text-black">
+                      Run
+                    </p>
+                    <p className="text-[24px] text-black leading-[210%] font-metropolisone">
+                      Web Development & Hosting
+                    </p>
+                  </div>
+                  <div className="ml-[773px] mt-[77.76px]">
+                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_6-removebg-preview.png" />
+                  </div>
                 </div>
-                <div className="ml-[455px]">
-                  <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_6-removebg-preview.png" />
-                </div>
+                <div className="border-[3px] border-black w-[1600px] mt-[56px]" />
               </div>
-              <div className="w-[1100px] border-black border-[2px] mt-[60px] " />
-              <div className="w-[1050px] mt-10 flex">
-                <img
-                  className="ml-12"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header%20%284%29.svg"
-                />
-                <div className="pl-[105px]">
-                  <p className="text-[35px] font-syneboldone text-black">Run</p>
-                  <p className="text-black font-metropolisone">
-                    Web Development & Hosting
+              <div className="">
+                <div className="flex">
+                  <p className="ml-[100px]  mt-[42px] font-metropolistwo text-[100px]">
+                    <img
+                      className="w-[131px] h-[161px]"
+                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header%20%285%29.svg"
+                    />
                   </p>
+                  <div className="mt-16 ml-[67px]  w-[307px]">
+                    <p className=" font-syneboldone  text-[35px] text-black">
+                      The Ching Thing
+                    </p>
+                    <p className="text-[24px] text-black leading-[210%] font-metropolisone">
+                      Die Extraportion
+                    </p>
+                  </div>
+                  <div className="ml-[803px] mt-[77.76px]">
+                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_6-removebg-preview.png" />
+                  </div>
                 </div>
-                <div className="ml-[437px]">
-                  <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_6-removebg-preview.png" />
-                </div>
+                <div className="border-[3px] border-black w-[1600px] mt-[56px]" />
               </div>
-              <div className="w-[1100px] border-black border-[2px] mt-[60px] " />
-              <div className="w-[1150px] mt-10 flex">
-                <img
-                  className="ml-12"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Header%20%285%29.svg"
-                />
-                <div className="pl-[105px]">
-                  <p className="text-[35px] font-syneboldone text-black">
-                    The Ching Thing
-                  </p>
-                  <p className="text-black font-metropolisone">
-                    Die Extraportion
-                  </p>
-                </div>
-                <div className="ml-[355px]">
-                  <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_6-removebg-preview.png" />
-                </div>
-              </div>
-              <div className="w-[1100px] border-black border-[2px] mt-[60px] " />
             </div>
           </div>
-          <div>
+          <div className="mt-24">
             <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%206458.svg" />
           </div>
           <div>
-            <p className="font-syneboldone text-[45px] ml-[260px] mt-[169px]">
-              Testimonials
-            </p>
-            <p className="font-metropolisone text-black pl-[260px] text-[18px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et
-              <br /> dolore magna aliqua. Ut enim ad minim veniam.
-            </p>
-            <div className="flex mt-24 gap-14">
+            <div className="ml-[260px] w-[1200px] ">
+              <p className="font-syneboldone text-[65px] ml-[-5px] mt-[169px]">
+                Testimonials
+              </p>
+              <p className="font-metropolisone text-black text-[24px] leading-[210%] pt-10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et
+                <br /> dolore magna aliqua. Ut enim ad minim veniam.
+              </p>
+            </div>
+            <div className="flex mt-[117px]">
               <div>
                 <img
-                  className="ml-[60px] mt-[80px]"
+                  className="ml-[110px] mt-[80px]"
                   src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%206404.svg"
                 />
               </div>
-              <div className="w-[531px] h-[349px] grid-one">
+              <div className="w-[801px] h-[439px] ml-[71px] grid-one">
                 <div>
-                  <p className="font-syneboldone pl-[30px] text-[35px] pt-[78px]">
+                  <p className="font-syneboldone pl-[69px] text-[35px] pt-[78px]">
                     John Doe - Writer
                   </p>
-                  <p className="font-metropolisone text-[18px] pl-[30px] pt-6 leading-[40px]">
+                  <p className="font-metropolisone text-[24px] pl-[69px] pt-[26px] leading-[210%] ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                     <br /> elitsed do eiusmod tempor incididunt ut labore et
                     dolore
@@ -134,12 +155,12 @@ export const Sectiontwo = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-[531px] h-[349px] grid-one">
+              <div className="w-[801px] h-[439px] ml-[70px] grid-one">
                 <div>
-                  <p className="font-syneboldone pl-[30px] text-[35px] pt-[78px]">
+                  <p className="font-syneboldone pl-[69px] text-[35px] pt-[78px]">
                     John Doe - Writer
                   </p>
-                  <p className="font-metropolisone text-[18px] pl-[30px] pt-6 leading-[40px]">
+                  <p className="font-metropolisone text-[24px] pl-[69px] pt-[26px] leading-[210%] ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                     <br /> elitsed do eiusmod tempor incididunt ut labore et
                     dolore
@@ -150,92 +171,94 @@ export const Sectiontwo = () => {
               </div>
             </div>
             <div>
-              <div className="absolute">
+              <div className="absolute h-[660px] w-full max-w-[1920px]">
                 <img
-                  className="w-full max-w-[1440px] mt-[300px]"
+                  className="w-full max-w-[1920px]  mt-[317px]"
                   src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%201862.svg"
                 />
               </div>
-              <div className="flex justify-center w-full max-w-[1440px] absolute">
-                <div className=" mt-[320px]">
+              <div className="flex justify-center w-full max-w-[1920px] absolute">
+                <div className="w-full mt-[320px]">
                   <img
-                    className="mt-[-80px] w-32"
+                    className="mt-[-100px] w-[197px] h-[197px] ml-[21px] "
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%206415.svg"
                   />
-                  <p className="text-white font-syneboldone text-[35px] pl-[100px] pt-[126px]">
-                    We Are Available To Start
-                    <br /> Your Project!
-                  </p>
-                  <p className="font-metropolisone leading-[50px] text-[10px] pl-[100px] text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna{" "}
-                    <br />
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis <br />
-                    aute irure dolor in reprehenderit.
-                  </p>
+                  <div className="ml-[150px] w-full">
+                    <p className="text-white font-syneboldone text-[65px]  leading-[161%] mt-[126px]">
+                      We Are Available To Start
+                      <br /> Your Project!
+                    </p>
+                    <p className="font-metropolisone text-[24px] mt-[42px] opacity-[0.8] leading-[210%]  text-white">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
+                      <br />
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis <br />
+                      aute irure dolor in reprehenderit.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-[500px]">
-                  <button className="w-[336px] h-[77px] bg-[#F1C164] font-syneboldone text-black ml-60">
+                <div className="mt-[570px]">
+                  <button className="w-[336px] h-[77px] bg-[#F1C164] font-syneboldone text-black text-[24px] leading-[210%] mr-[140px]">
                     Request a Quote
                   </button>
                 </div>
               </div>
             </div>
-            <div className="mt-[1100px] w-full max-w-[1920px]">
+            <div className="mt-[1200px] w-full max-w-[1920px]">
               <div className="flex gap-28 w-full max-w-[1920px]">
-                <div className="ml-[150px]">
+                <div className="ml-[239px]">
                   <nav>
                     <ul>
-                      <li className="font-syneboldone">Solutions</li>
-                      <li className="font-metropolisone">Identity</li>
-                      <li className="font-metropolisone">Strategy</li>
-                      <li className="font-metropolisone">Web Develoment</li>
-                      <li className="font-metropolisone">Hosting</li>
-                      <li className="font-metropolisone">Marketing</li>
+                      <p className="text-24 font-syneboldone">Solutions</p>
+                      <li className="font-metropolisone mt-[21px]">Identity</li>
+                      <li className="font-metropolisone mt-3">Strategy</li>
+                      <li className="font-metropolisone mt-3">Web Develoment</li>
+                      <li className="font-metropolisone mt-3">Hosting</li>
+                      <li className="font-metropolisone mt-3">Marketing</li>
                     </ul>
                   </nav>
                 </div>
-                <div className="ml-[110px]">
+                <div className="ml-[140px]">
                   <nav>
                     <ul>
-                      <li className="font-syneboldone">Company</li>
-                      <li className="font-metropolisone">About us</li>
-                      <li className="font-metropolisone">Showcase</li>
-                      <li className="font-metropolisone">Merch Shop</li>
+                    <p className="text-24 font-syneboldone">Company</p>
+                      <li className="font-metropolisone mt-[21px]">About us</li>
+                      <li className="font-metropolisone mt-3">Showcase</li>
+                      <li className="font-metropolisone mt-3">Merch Shop</li>
                     </ul>
                   </nav>
                 </div>
-                <div className="ml-[110px]">
-                  <p className="font-syneboldone text-black text-[30px] mt-[-50px]">
+                <div className="ml-[150px] mt-6">
+                  <p className="font-syneboldone text-black text-[45px] leading-[161%] mt-[-50px]">
                     Join Our Newsletter
                   </p>
                   <input
-                    className="border-2 border-black w-[406px] h-[52px] pl-4 text-black font-metropolisone"
+                    className="border-2 border-black w-[616px] h-[77px] mt-[46px] pl-8 text-2xl text-black font-metropolisone"
                     placeholder="First Name"
                     type="name"
                   />
                   <br />
                   <input
-                    className="border-2 border-black w-[406px] h-[52px] pl-4 text-black font-metropolisone mt-4"
+                    className="border-2 border-black w-[616px] h-[77px] mt-[27px] pl-8 text-2xl text-black font-metropolisone"
                     placeholder="Email"
                     type="email"
                   />
                   <br />
-                  <button className="cursor-pointer text-[20px] text-center bg-[#5458E1] text-white font-syneboldone mt-4 w-[406px] h-[52px]">
+                  <button className="cursor-pointer text-[24px] text-center bg-[#5458E1] text-white font-syneboldone mt-[27px]  w-[616px] h-[77px]">
                     Sign Up
                   </button>
-                  <p className="font-metropolisone text-[14px] leading-[25px] text-black pt-10">
+                  <p className="font-metropolisone text-[20px] leading-[210%] text-black pt-[38px] opacity-[0.8]">
                     By clicking the "Sign Up" button you confirm that you agree
                     <br /> with our Terms & Conditions.
                   </p>
                 </div>
               </div>
-              <div className="flex">
+              <div className="flex w-full max-w-[1920px]">
                 <div className="flex mt-44 gap-10">
                   <svg
-                    className="ml-[135px] cursor-pointer"
+                    className="ml-[225px] cursor-pointer"
                     width="34"
                     height="33"
                     viewBox="0 0 34 33"
@@ -307,15 +330,15 @@ export const Sectiontwo = () => {
                     />
                   </svg>
                 </div>
-                <div className="mt-44 ml-[430px]">
-                  <p className="font-metropolisone text-black text-[20px]">
+                <div className="mt-44 ">
+                  <p className="font-metropolisone ml-[650px] text-black leading-[210%] text-[24px]">
                     Privacy Policy - Terms of Service
                   </p>
                 </div>
               </div>
-              <div className="w-full max-w-[1920px] bg-[#1F222C] h-[145px] mt-14">
-                <p className="font-metropolisone text-[20px] text-center pt-14 text-white">
-                Copyright 2021 di•puentes - All Rights Reserved.
+              <div className="w-full bg-[#1F222C] h-[145px] mt-14">
+                <p className="font-metropolisone text-[24px] text-center pt-14 text-white">
+                  Copyright 2021 di•puentes - All Rights Reserved.
                 </p>
               </div>
             </div>

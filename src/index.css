@@ -26,16 +26,27 @@ code {
   font-family: metropolisone;
   src: url(../public/metropolis/Metropolis-Medium.otf);
 }
+@font-face {
+  font-family: metropolistwo;
+  src: url(../public/metropolis/Metropolis-ExtraBold.otf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../public/Montserrat/static/Montserrat-Black.ttf);
+}
 .header-paragraph {
   /* background: rgba(241, 193, 100, 0.8);
   background-blend-mode: overlay, normal;
   backdrop-filter: blur(132px); */
   font-size: 70px;
   margin-top: 258px;
+  line-height: 150%;
+  width: 1297px;
+  height: 420px;
 }
 .bg-color {
   background: linear-gradient(121.7deg, #2a3148 2.69%, #1d2029 86.9%);
-  margin-top: 200px;
+  margin-top: 227px;
 }
 .header-image {
   width: 100%;
